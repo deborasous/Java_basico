@@ -15,10 +15,10 @@ public class Main {
 
         String mensagemVolume = smartTv.definirVolume(15);
         System.out.println(mensagemVolume);
-
         
         String mensagemDiminuirVolume = smartTv.diminuirVolume(0);
         System.out.println(mensagemDiminuirVolume);
+
         String mensagemAumentarVolume = smartTv.aumentarVolume(20);
         System.out.println(mensagemAumentarVolume);
     }

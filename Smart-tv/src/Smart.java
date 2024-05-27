@@ -1,6 +1,5 @@
-public class Main {
+public class Smart {
     public static void main(String[] args) throws Exception {
-        /* Liga/Desliga */
         SmartTv smartTv = new SmartTv();
 
         String mensagemTv = smartTv.ligarTv(true);
@@ -15,7 +14,7 @@ public class Main {
 
         String mensagemVolume = smartTv.definirVolume(15);
         System.out.println(mensagemVolume);
-        
+
         String mensagemDiminuirVolume = smartTv.diminuirVolume(0);
         System.out.println(mensagemDiminuirVolume);
 

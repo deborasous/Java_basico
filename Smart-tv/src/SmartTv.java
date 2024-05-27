@@ -1,3 +1,8 @@
+/**
+ * <h1>SmartTv</h1>
+ * A SmartTv realiza ações de ligar e desligar, aumenta e diminuir volume e mudar de canal
+ */
+
 public class SmartTv {
   boolean ligada = false;
   boolean primeiraVezLigada = true;
